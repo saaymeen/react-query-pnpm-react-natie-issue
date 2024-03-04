@@ -24,6 +24,9 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import {QueryClient} from '@tanstack/react-query';
+
+const a = QueryClient();
 
 type SectionProps = PropsWithChildren<{
   title: string;
